@@ -3,26 +3,23 @@ body {
   width: 600px;
   height: 2200px;
   margin: 0 auto;
-  -webkit-text-size-adjust: none;
-}
+  -webkit-text-size-adjust: none; }
 
 .rs-Newsletter-tips-highlightstory {
   width: 600px;
-  height: 2200px;
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .header {
   display: flex;
   justify-content: space-between;
-}
+  margin-bottom: 50px; }
 
 .rs-logo {
   font-size: x-large;
   width: 141px;
   height: 36px;
-  object-fit: contain;
-} 
+  margin-top: 20px;
+  object-fit: contain; }
 
 .View-in-your-browser {
   width: 99px;
@@ -32,7 +29,14 @@ body {
   text-align: left;
   color: #ec5447;
   margin-top: 33px;
-}
+  margin-right: 70px; }
+
+.intro-header {
+  display: flex;
+  height: 205px; }
+
+.main-text-header {
+  width: 320px; }
 
 .Summer-newsletter {
   width: 509px;
@@ -46,8 +50,7 @@ body {
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
   -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
+  -webkit-margin-end: 0px; }
 
 .z {
   width: 273px;
@@ -56,33 +59,37 @@ body {
   font-size: 14px;
   line-height: 1.21;
   text-align: left;
-  color: #85939e;
-}
+  color: #85939e; }
 
 .Rectangle {
   width: 600px;
   height: 1367px;
-  background-color: #f7f8f9;
-}
+  background-color: #f7f8f9; }
 
-.TRACTION {
+section {
+  margin: 0px 45px 0px 45px; }
+
+/* .trac-conf-pic-banner {
+
+} */
+.trac {
   width: 53px;
   height: 13px;
   font-family: AlrightSansLT;
   font-size: 10px;
   font-weight: bold;
   color: #60cbe2;
-}
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px; }
 
-.Traction-Conference {
+.trac-conf {
   width: 208px;
   height: 23px;
   font-family: TiemposHeadline;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .Hi-There-Were-stil {
   width: 330px;
@@ -93,12 +100,10 @@ body {
   line-height: 1.36;
   letter-spacing: -0.1px;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .Hi-There-Were-stil .text-style-1 {
-  color: #ec5447;
-}
+  color: #ec5447; }
 
 .-Tips-for-Action {
   width: 199px;
@@ -107,8 +112,7 @@ body {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .All-the-things-you-n {
   width: 291px;
@@ -116,15 +120,13 @@ body {
   font-family: AlrightSansLT;
   font-size: 14px;
   text-align: center;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .Rectangle-3 {
   width: 510px;
   height: 136px;
   background-color: #ffffff;
-  border: solid 1px #eceef0;
-}
+  border: solid 1px #eceef0; }
 
 .rect-content {
   width: 320px;
@@ -132,8 +134,7 @@ body {
   font-family: AlrightSansLT;
   font-size: 12px;
   text-align: left;
-  color: #85939e;
-}
+  color: #85939e; }
 
 .rect-footer {
   width: 61px;
@@ -142,8 +143,7 @@ body {
   font-size: 10px;
   font-weight: 500;
   text-align: left;
-  color: #60cbe2;
-}
+  color: #60cbe2; }
 
 .Your-favourite-blog {
   width: 302px;
@@ -152,15 +152,13 @@ body {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .rect-blog {
   width: 242px;
   height: 275px;
   background-color: #ffffff;
-  border: solid 1px #eceef0;
-}
+  border: solid 1px #eceef0; }
 
 .rect-blog-title {
   width: 212px;
@@ -170,8 +168,7 @@ body {
   font-weight: 500;
   line-height: 1.38;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .rect-blog-content {
   width: 212px;
@@ -181,14 +178,12 @@ body {
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .rect-cro {
   width: 600px;
   height: 50px;
-  background-color: #ec5447;
-}
+  background-color: #ec5447; }
 
 .We-now-do-CRO-let-u {
   width: 444px;
@@ -197,12 +192,10 @@ body {
   font-size: 14px;
   line-height: 1.36;
   text-align: left;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .We-now-do-CRO-let-u .text-style-1 {
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .Made-in-Canada {
   width: 108px;
@@ -211,12 +204,10 @@ body {
   font-family: AlrightSansLT;
   font-size: 14px;
   text-align: left;
-  color: #85939e;
-}
+  color: #85939e; }
 
 .Made-in-Canada .text-style-1 {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .unsubscribe-btn {
   width: 93px;
@@ -225,8 +216,7 @@ body {
   font-size: 12px;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .View-in-browser {
   width: 121px;
@@ -235,8 +225,7 @@ body {
   font-size: 12px;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #0a273c;
-}
+  color: #0a273c; }
 
 .trademark-footer {
   width: 315px;
@@ -245,5 +234,6 @@ body {
   font-family: AlrightSansLT;
   font-size: 12px;
   text-align: left;
-  color: #85939e;
-}
+  color: #85939e; }
+
+/*# sourceMappingURL=main.css.map */
