@@ -12,6 +12,7 @@ body {
 .rs-Newsletter-tips-highlightstory {
   width: 600px;
   background-color: #ffffff;
+  margin: $border-margin   
 }
 
 .header {
@@ -80,11 +81,12 @@ body {
 }
 
 section {
-  margin: $border-margin 
-}
-/* .trac-conf-pic-banner {
+  margin: $border-margin; 
+}  
 
-} */
+.trac-conf-detail {
+  background-color: white;
+}
 
 .trac {
   width: 53px;
@@ -123,30 +125,39 @@ section {
   color: #ec5447;
 }
 
+.first-page-break-text{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
 .-Tips-for-Action {
-  width: 199px;
   height: 32px;
   font-family: TiemposText;
   font-size: 25px;
   font-weight: 500;
   text-align: center;
   color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
 
 .All-the-things-you-n {
-  width: 291px;
   height: 18px;
   font-family: AlrightSansLT;
   font-size: 14px;
   text-align: center;
   color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
 
 .Rectangle-3 {
+  display: flex;
   width: 510px;
   height: 136px;
   background-color: #ffffff;
   border: solid 1px #eceef0;
+  margin-bottom: 20px;
 }
 
 .rect-content {
@@ -168,14 +179,34 @@ section {
   color: #60cbe2;
 }
 
+.intro-blog {
+  margin-bottom: 20px;
+}
+
 .Your-favourite-blog {
-  width: 302px;
   height: 32px;
   font-family: TiemposText;
   font-size: 25px;
   font-weight: 500;
   text-align: center;
   color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
+}
+
+.fav-blog-content {
+  height: 18px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: center;
+  color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
+}
+
+.blog {
+  display:flex;
+  justify-content: space-between;
 }
 
 .rect-blog {
