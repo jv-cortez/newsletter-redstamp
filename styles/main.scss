@@ -2,15 +2,22 @@ $border-margin: 0px 45px 0px 45px;
 $zero-webkit-margin: 0px;
 
 body {
-  background-color: white;
   width: 600px;
-  height: 2200px;
+  height: 2050px;
+  margin: 0 auto;
+  -webkit-text-size-adjust: none;
+}
+
+main {
+  background-color: white;
+  border: 1px solid lightgrey;
+  width: 600px;
+  height: 2000px;
   margin: 0 auto;
   -webkit-text-size-adjust: none;
 }
 
 .rs-Newsletter-tips-highlightstory {
-  width: 600px;
   background-color: #ffffff;
   margin: $border-margin   
 }
@@ -76,7 +83,7 @@ body {
 
 .Rectangle {
   width: 600px;
-  height: 1367px;
+  height: 1200px;
   background-color: #f7f8f9;
 }
 
@@ -245,18 +252,20 @@ section {
 }
 
 .We-now-do-CRO-let-u {
-  width: 444px;
   height: 19px;
   font-family: AlrightSansLT;
   font-size: 14px;
-  line-height: 1.36;
-  text-align: left;
+  line-height: 3.36;
+  text-align: center;
   color: #ffffff;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
 
 .We-now-do-CRO-let-u .text-style-1 {
   font-weight: 500;
 }
+
 
 .Made-in-Canada {
   width: 108px;
@@ -272,7 +281,22 @@ section {
   font-weight: bold;
 }
 
-.unsubscribe-btn {
+.social-media-ftr {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 15px 0px;
+}
+
+.canada {
+  display: flex;
+}
+
+.unsub-ftr {
+  display: flex;
+  justify-content: center;
+}
+
+.unsub-btn {
   width: 93px;
   height: 16px;
   font-family: AlrightSansLT;
@@ -280,24 +304,29 @@ section {
   letter-spacing: 0.5px;
   text-align: left;
   color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
 
 .View-in-browser {
-  width: 121px;
+  width: 85px;
   height: 16px;
   font-family: AlrightSansLT;
   font-size: 12px;
   letter-spacing: 0.5px;
   text-align: left;
   color: #0a273c;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
 
-.trademark-footer {
-  width: 315px;
+.trademark-ftr {
   height: 16px;
   opacity: 0.5;
   font-family: AlrightSansLT;
   font-size: 12px;
-  text-align: left;
+  text-align: center;
   color: #85939e;
+  -webkit-margin-before: $zero-webkit-margin;
+  -webkit-margin-after: $zero-webkit-margin;
 }
