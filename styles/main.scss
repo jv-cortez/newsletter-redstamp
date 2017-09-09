@@ -37,6 +37,7 @@ hr {
   border: 1px solid #eceef0;
 } 
 
+//newsletter header
 .rs-Newsletter-tips-highlightstory {
   background-color: #ffffff;
   height: 477px;
@@ -83,7 +84,7 @@ hr {
   width: 320px;
 }
 
-.Summer-newsletter {
+.newsletter-title {
   width: 509px;
   height: 90px;
   font-family: 'TiemposText', sans-serif;
@@ -106,6 +107,7 @@ hr {
   color: #85939e;
 }
 
+//newsletter main content
 .Rectangle {
   width: 600px;
   height: 1300px;
@@ -116,6 +118,7 @@ section {
   margin: $border-margin; 
 }  
 
+//traction conference 
 .traction-conf-detail {
   background-color: white;
   height: 260px;
@@ -144,7 +147,7 @@ section {
   color: #0a273c;
 }
 
-.Hi-There-Were-stil {
+.traction-content {
   width: 330px;
   height: 164px;
   opacity: 0.73;
@@ -156,11 +159,11 @@ section {
   color: #0a273c;
 }
 
-.Hi-There-Were-stil .text-style-1 {
+.traction-content .text-style-1 {
   color: #ec5447;
 }
 
-.Hi-There-Were-stil .text-style-1:hover {
+.traction-content .text-style-1:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -185,7 +188,7 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
-.All-the-things-you-n {
+.tips-for-action-details {
   height: 18px;
   font-family: 'AlrightSansLT';
   font-size: 14px;
@@ -237,7 +240,7 @@ section {
   margin: 30px 0px 25px 20px;
 }
 
-.Your-favourite-blog {
+.intro-blog-title {
   height: 32px;
   font-family: 'TiemposText';
   font-size: 25px;
@@ -248,7 +251,7 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
-.fav-blog-content {
+.intro-blog-text {
   height: 18px;
   font-family: 'AlrightSansLT';
   font-size: 14px;
@@ -309,7 +312,7 @@ section {
   cursor: pointer; 
 }
 
-.We-now-do-CRO-let-u {
+.cro-link {
   height: 19px;
   font-family: 'AlrightSansLT';
   font-size: 14px;
@@ -320,7 +323,7 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
-.We-now-do-CRO-let-u .text-style-1 {
+.cro-link .text-style-1 {
   font-weight: 500;
 }
 
