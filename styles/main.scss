@@ -1,9 +1,24 @@
 $border-margin: 0px 45px 0px 45px;
 $zero-webkit-margin: 0px;
 
+@font-face {
+  font-family: 'TiemposText';
+  src: local('TiemposText'), url('../fonts/TiemposText-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AlrightSansLT';
+  src: url('../fonts/AlrightSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'TiemposHeadline';
+  src: url('../fonts/TiemposHeadline-Regular.otf') format('opentype');
+}
+
 body {
   width: 600px;
-  height: 2050px;
+  height: 2200px;
   margin: 0 auto;
   -webkit-text-size-adjust: none;
 }
@@ -12,14 +27,19 @@ main {
   background-color: white;
   border: 1px solid lightgrey;
   width: 600px;
-  height: 2000px;
+  height: 2075px;
   margin: 0 auto;
   -webkit-text-size-adjust: none;
 }
 
+hr {
+  border: 1px solid #eceef0;
+} 
+
 .rs-Newsletter-tips-highlightstory {
   background-color: #ffffff;
-  margin: $border-margin   
+  height: 477px;
+  margin: $border-margin;   
 }
 
 .header {
@@ -39,12 +59,18 @@ main {
 .View-in-your-browser {
   width: 99px;
   height: 13px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 10px;
   text-align: left;
   color: #ec5447;
   margin-top: 33px;
-  margin-right: 70px;
+  margin-right: 35px;
+}
+
+.View-in-your-browser:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  
 }
 
 .intro-header {
@@ -59,7 +85,7 @@ main {
 .Summer-newsletter {
   width: 509px;
   height: 90px;
-  font-family: TiemposText;
+  font-family: 'TiemposText', sans-serif;
   font-size: 44px;
   line-height: 1.02;
   letter-spacing: -0.4px;
@@ -67,14 +93,12 @@ main {
   color: #0a273c;
   -webkit-margin-before: $zero-webkit-margin;
   -webkit-margin-after: $zero-webkit-margin;
-  -webkit-margin-start: $zero-webkit-margin;
-  -webkit-margin-end: $zero-webkit-margin;
 }
 
-.z {
+.newsletter-content {
   width: 273px;
   height: 34px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   line-height: 1.21;
   text-align: left;
@@ -83,7 +107,7 @@ main {
 
 .Rectangle {
   width: 600px;
-  height: 1200px;
+  height: 1300px;
   background-color: #f7f8f9;
 }
 
@@ -93,12 +117,15 @@ section {
 
 .trac-conf-detail {
   background-color: white;
+  height: 260px;
+  padding: 30px;
+  padding-left: 130px;
 }
 
 .trac {
   width: 53px;
   height: 13px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 10px;
   font-weight: bold;
   color: #60cbe2;
@@ -109,7 +136,7 @@ section {
 .trac-conf {
   width: 208px;
   height: 23px;
-  font-family: TiemposHeadline;
+  font-family: 'TiemposHeadline';
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -120,7 +147,7 @@ section {
   width: 330px;
   height: 164px;
   opacity: 0.73;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: -0.1px;
@@ -132,6 +159,15 @@ section {
   color: #ec5447;
 }
 
+.Hi-There-Were-stil .text-style-1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.actionables {
+  margin-bottom: 35px;
+}
+
 .first-page-break-text{
   margin-top: 35px;
   margin-bottom: 20px;
@@ -139,7 +175,7 @@ section {
 
 .-Tips-for-Action {
   height: 32px;
-  font-family: TiemposText;
+  font-family: 'TiemposText';
   font-size: 25px;
   font-weight: 500;
   text-align: center;
@@ -150,7 +186,7 @@ section {
 
 .All-the-things-you-n {
   height: 18px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   text-align: center;
   color: #0a273c;
@@ -158,8 +194,9 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
-.Rectangle-3 {
+.Rectangle-actions {
   display: flex;
+  justify-content: space-evenly;
   width: 510px;
   height: 136px;
   background-color: #ffffff;
@@ -167,32 +204,41 @@ section {
   margin-bottom: 20px;
 }
 
+.Rectangle-actions:hover {
+  cursor: pointer; 
+  border: 1px solid grey;
+}
 .rect-content {
   width: 320px;
   height: 32px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 12px;
   text-align: left;
   color: #85939e;
 }
 
-.rect-footer {
+.rect-ftr {
   width: 61px;
   height: 13px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 10px;
   font-weight: 500;
   text-align: left;
   color: #60cbe2;
 }
 
+.rect-ftr:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .intro-blog {
-  margin-bottom: 20px;
+  margin: 30px 0px 25px 20px;
 }
 
 .Your-favourite-blog {
   height: 32px;
-  font-family: TiemposText;
+  font-family: 'TiemposText';
   font-size: 25px;
   font-weight: 500;
   text-align: center;
@@ -203,7 +249,7 @@ section {
 
 .fav-blog-content {
   height: 18px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   text-align: center;
   color: #0a273c;
@@ -218,15 +264,23 @@ section {
 
 .rect-blog {
   width: 242px;
-  height: 275px;
+  height: 255px;
   background-color: #ffffff;
   border: solid 1px #eceef0;
 }
 
+.rect-blog:hover {
+  cursor: pointer; 
+  border: 1px solid grey;
+}
+
+.rect-blog-content {
+  padding: 15px;
+}
 .rect-blog-title {
   width: 212px;
   height: 22px;
-  font-family: TiemposHeadline;
+  font-family: 'TiemposHeadline';
   font-size: 16px;
   font-weight: 500;
   line-height: 1.38;
@@ -234,11 +288,11 @@ section {
   color: #0a273c;
 }
 
-.rect-blog-content {
+.rect-blog-desc {
   width: 212px;
   height: 90px;
   opacity: 0.73;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
@@ -250,10 +304,13 @@ section {
   height: 50px;
   background-color: #ec5447;
 }
+.rect-cro:hover {
+  cursor: pointer; 
+}
 
 .We-now-do-CRO-let-u {
   height: 19px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   line-height: 3.36;
   text-align: center;
@@ -266,12 +323,11 @@ section {
   font-weight: 500;
 }
 
-
 .Made-in-Canada {
   width: 108px;
-  height: 18px;
+  height: 16px;
   opacity: 0.5;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 14px;
   text-align: left;
   color: #85939e;
@@ -281,16 +337,30 @@ section {
   font-weight: bold;
 }
 
+.leaf {
+  margin-bottom: 3px;
+}
 .social-media-ftr {
   display: flex;
   justify-content: space-between;
   margin: 30px 0px 15px 0px;
 }
 
+.social-media-svg > img {
+  margin: 0px 5px 0px 5px;
+}
+
+.social-media-svg > img:hover {
+  cursor: pointer;  
+}
+
 .canada {
   display: flex;
 }
 
+.copyright {
+  margin-top: 40px;
+}
 .unsub-ftr {
   display: flex;
   justify-content: center;
@@ -299,7 +369,7 @@ section {
 .unsub-btn {
   width: 93px;
   height: 16px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 12px;
   letter-spacing: 0.5px;
   text-align: left;
@@ -308,10 +378,15 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
+.unsub-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
 .View-in-browser {
   width: 85px;
   height: 16px;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 12px;
   letter-spacing: 0.5px;
   text-align: left;
@@ -320,10 +395,15 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
+.View-in-browser:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
 .trademark-ftr {
   height: 16px;
   opacity: 0.5;
-  font-family: AlrightSansLT;
+  font-family: 'AlrightSansLT';
   font-size: 12px;
   text-align: center;
   color: #85939e;
