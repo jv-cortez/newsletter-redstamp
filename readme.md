@@ -1,3 +1,7 @@
-### Red Stamp Newsletter
+# Red Stamp Newsletter
 
-coded newsletter into a single web page
+Coded newsletter into a static single web page
+
+## Duration of Work Time:
+9 hours
+
