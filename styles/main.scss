@@ -29,6 +29,7 @@ main {
   width: 600px;
   height: 2075px;
   margin: 0 auto;
+  margin-top: 10px;
   -webkit-text-size-adjust: none;
 }
 
@@ -115,14 +116,14 @@ section {
   margin: $border-margin; 
 }  
 
-.trac-conf-detail {
+.traction-conf-detail {
   background-color: white;
   height: 260px;
   padding: 30px;
   padding-left: 130px;
 }
 
-.trac {
+.traction {
   width: 53px;
   height: 13px;
   font-family: 'AlrightSansLT';
@@ -133,7 +134,7 @@ section {
   -webkit-margin-after: $zero-webkit-margin;
 }
 
-.trac-conf {
+.traction-conf {
   width: 208px;
   height: 23px;
   font-family: 'TiemposHeadline';
